@@ -31,7 +31,6 @@ print(myList)
 myList.insert(4, "apple2")
 print(myList)
 
-#remove element
-myList.pop(4)
-print(myList)
-
+print(f"\nEnumerated list: {myList}")
+for x,y in enumerate(myList):
+    print(x,y)
