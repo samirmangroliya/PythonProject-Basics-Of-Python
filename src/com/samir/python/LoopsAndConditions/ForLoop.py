@@ -23,3 +23,16 @@ for x in range(4):
     print(x)
 else:
    print("For loop finished!")
+
+for index, item in enumerate(fruits):
+    print(index, item)
+else:
+    print("For loop with index finished!")
+
+
+for index, item in enumerate(fruits):
+    print(index, item)
+else:
+    print("For loop with index finished!")
+
+for index, item in enumerate(fruits):pass
